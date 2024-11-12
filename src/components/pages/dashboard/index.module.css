@@ -1,0 +1,37 @@
+.contentContainer {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.headerContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.kanbanComponentWrapper {
+    display: flex;
+}
+
+.customCalendar {
+    cursor: pointer;
+    padding: 5px 15px;
+    border: 0;
+    border-radius: 4px;
+    background-color: #216ba5;
+    font: inherit;
+    color: #fff;
+}
+
+.headerActions {
+    font-size: 22px;
+}
+
+.headerActions span {
+    cursor: pointer;
+}
+
+.headerActions span:last-of-type {
+    margin-right: 0px;
+}

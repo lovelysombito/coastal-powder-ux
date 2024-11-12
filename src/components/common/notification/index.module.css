@@ -1,0 +1,20 @@
+.notification {
+    /* font-size: 25px;
+    font-weight: bold; */
+    /* color: #bbbbbb; */
+    color: #334151;
+    /* margin-top: 5px; */
+    /* margin-bottom: 5px; */
+}
+
+.notificationText {
+    font-size: 11px;
+}
+
+.divider {
+    margin: 10px;
+}
+
+.navDropdown {
+    background: #e7e6e6;
+}

@@ -1,0 +1,49 @@
+select {
+   /* Reset Select */
+   appearance: none;
+   outline: 0;
+   border: 0;
+   box-shadow: none;
+   /* Personalize */
+   flex: 1;
+   text-align: center;
+   color: #fff;
+   background-color: var(--darkgray);
+   background-image: none;
+   cursor: pointer;
+}
+
+select::-ms-expand {
+   display: none;
+}
+
+select::-ms-expand {
+   display: none;
+}
+.select {
+   position: relative;
+   display: flex;
+   /* height: 3em; */
+   /* line-height: 2; */
+   /* text-align: center; */
+   background: #c6c9d5;
+   overflow: hidden;
+   border-radius: 0.25em;
+   color: black;
+   padding: 15px;
+   width: 70px;
+}
+.select::after {
+   content: '\25BC';
+   position: absolute;
+   top: 0;
+   right: 0;
+   padding: 0 1em;
+   background: #2b2e2e;
+   cursor: pointer;
+   pointer-events: none;
+   transition: 0.25s all ease;
+}
+.select:hover::after {
+   color: #23b499;
+}

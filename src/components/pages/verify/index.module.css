@@ -1,0 +1,74 @@
+.container {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    padding: 50px;
+}
+
+.formContainer {
+    width: 100%;
+    max-width: 400px;
+    margin-top: 100px;
+}
+
+.submitButtonContainer {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.submitButton {
+    width: 200px;
+    border-radius: 50px !important;
+}
+
+.formText {
+    border-radius: 50px !important;
+    border-left: none !important;
+    border-top-left-radius: 0px !important;
+    border-bottom-left-radius: 0px !important;
+}
+
+.formText:focus {
+    box-shadow: none !important;
+    border-color: #ced4da !important;
+}
+
+.formText:auto-fi {
+    background-color: white !important;
+}
+
+.formTextIcon {
+    display: inline-block;
+    font-size: 20px;
+    color: gray;
+    border: 1px solid #ced4da;
+    border-radius: 0px;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    padding-left: 12px;
+}
+
+.forgotPasswordLink {
+    color: gray;
+    text-decoration: none;
+}
+
+.errorAlert {
+    padding: 5px !important;
+    border-radius: 50px !important;
+    margin-bottom: 20px !important;
+}
+
+.logo {
+    width: 400px;
+    max-width: 100%;
+    height: auto;
+}
+
+.otherActionsContainer {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}

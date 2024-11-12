@@ -1,0 +1,25 @@
+.customCalendar {
+    cursor: pointer;
+    padding: 5px 15px;
+    border: 0;
+    border-radius: 4px;
+    background-color: #216ba5;
+    font: inherit;
+    color: #fff;
+    width: 100%;
+}
+
+.customContainer {
+    padding-left: 80px;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+}
+
+.bayHeader {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}

@@ -1,0 +1,109 @@
+.contentContainer {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.headerContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.headerActions {
+    font-size: 22px;
+}
+
+.headerActions button {
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+.headerActions button:last-of-type {
+    margin-right: 0px;
+}
+
+.permission {
+    font-weight: 500;
+}
+
+.tableCheckBox input[type='checkbox'] {
+    border-radius: 0;
+}
+
+.fieldItem, .formButton {
+    display: flex;
+    width: 550px;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    align-items: center;
+}
+
+.formButton {
+    justify-content: flex-end;
+}
+
+.fieldItemField {
+    width: 300px !important;
+    border-radius: 0px !important;
+    border: none;
+}
+
+.updateFormContainer {
+    padding-left: 60px;
+}
+.tableContainer {
+    height: calc(100vh - 300px);
+    overflow: auto;
+    border: 1px solid #e1e6f2;
+    width: 100%;
+}
+.dataTable {
+    margin-bottom: 0;
+    
+}
+.dataTable thead tr {
+    position: sticky;
+    background-color: #e1e6f2;
+    top: 0;
+    z-index: 1;
+}
+.dataTable th {
+    /* height: 60px; */
+    align-items: center;
+}
+.dataTable td {
+    height: 70px;
+    align-items: center;
+}
+.dataTable tbody td {
+    padding: 0px;
+    padding-top: 10px;
+}
+.dataTable th div {
+    display: flex;
+    justify-content: flex-start;
+    height: 100%;
+    align-items: center;
+}
+.tableBodyCellContainer {
+    background-color: white;
+    height: 100%;
+    padding: .5rem .5rem;
+    display: flex;
+    align-items: center;
+}
+.tableBodyCellContainerRed {
+    background-color: rgb(224, 6, 6);
+    height: 100%;
+    padding: .5rem .5rem;
+    display: flex;
+    align-items: center;
+}
+.dataTable .table-expander{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1 1 auto;
+}

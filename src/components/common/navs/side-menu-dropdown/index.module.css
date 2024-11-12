@@ -1,0 +1,39 @@
+.sideMenuDropdown {
+    max-height: 50px;
+    cursor: pointer;
+    overflow: hidden;
+    transition: max-height 0.25s ease-out;
+}
+
+.sideMenuLabel {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.caret {
+    position: absolute;
+    right: 10px;
+    font-size: 11px;
+}
+
+.sideMenuLabelContentWrapper {
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+}
+
+.sideMenuLabelIcon {
+    margin-right: 5px;
+}
+
+.sideMenuLabel:hover {
+    background-color: #d6d9dc;
+    color: black;
+}
+
+.currentPageParent {
+    background-color: #334151 !important;
+    color: white !important;
+}

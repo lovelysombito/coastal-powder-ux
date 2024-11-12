@@ -1,0 +1,18 @@
+.sideMenu {
+    height: calc(100vh - 60px); /* 80px is the header size */
+    transition: width 0.25s ease-out;
+    border-right: 1px solid #dee2e6 !important;
+    flex: 0 0 auto;
+    overflow-y: scroll;
+    box-shadow: 2px 3px 10px rgb(0 0 0 / 10%);
+    z-index: 99;
+    padding: 20px 0px;
+}
+
+.sideMenu::-webkit-scrollbar {
+    display: none;
+}
+
+.faded {
+    opacity: .7;
+}

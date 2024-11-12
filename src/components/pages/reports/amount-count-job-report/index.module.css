@@ -1,0 +1,99 @@
+.contentContainer {
+    width: 100%;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+.headerContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: all 0.3s ease;
+    margin-top: 30px;
+}
+
+.content {
+    display: flex;
+}
+
+.chartItem {
+    width: 100%;
+    /* max-width: 850px; */
+    margin: 20px;
+    margin-top: 50px;
+}
+
+.headerActions {
+    display: flex;
+}
+
+.headerActions span {
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+.headerActions span:last-of-type {
+    margin-right: 0px;
+}
+.headerButtons {
+    margin-right: 10px;
+}
+
+.customCalendar {
+    cursor: pointer;
+    padding: 5px 15px;
+    border: 0;
+    border-radius: 4px;
+    background-color: #216ba5;
+    font: inherit;
+    color: #fff;
+    overflow-y: auto;
+    height: 41px;
+}
+
+select {
+    /* Reset Select */
+    appearance: none;
+    outline: 0;
+    border: 0;
+    box-shadow: none;
+    /* Personalize */
+    flex: 1;
+    text-align: center;
+    color: #fff;
+    background-color: #216ba5;
+    background-image: none;
+    cursor: pointer;
+    height: 41px;
+ }
+ 
+ select::-ms-expand {
+    display: none;
+ }
+ 
+ select::-ms-expand {
+    display: none;
+ }
+ .select {
+    display: flex;
+    background: #216ba5;
+    overflow: hidden;
+    border-radius: 0.25em;
+    color: #fff;
+    padding: 5px;
+    margin-left: 2px;
+ }
+ .select::after {
+    content: '\25BC';
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 0 1em;
+    background: #2b2e2e;
+    cursor: pointer;
+    pointer-events: none;
+    transition: 0.25s all ease;
+ }
+ .select:hover::after {
+    color: #23b499;
+ }

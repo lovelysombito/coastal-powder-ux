@@ -1,0 +1,34 @@
+.toggleButton {
+    height: 18px;
+    width: 50px;
+    border-radius: 25px;
+    position: relative;
+    cursor: pointer;
+}
+
+.toggleButtonOn {
+    background-color: #03c895;
+}
+
+.toggleButtonOff {
+    background-color: #fc3d3b;
+}
+
+.toggleButtonDot {
+    position: absolute;
+    background-color: white;
+    height: 16px;
+    width: 16px;
+    border-radius: 25px;
+    left: 1px;
+    top: 1px;
+    transition: left 0.25s ease-out;
+}
+
+.toggleButtonOff .toggleButtonDot {
+    left: 1px !important;
+}
+
+.toggleButtonOn .toggleButtonDot {
+    left: 33px !important;
+}

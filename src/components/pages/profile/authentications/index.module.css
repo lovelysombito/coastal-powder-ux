@@ -1,0 +1,87 @@
+.textField {
+    width: 300px !important;
+    margin-right: 15px !important;
+    border-radius: 0px !important;
+}
+
+.fieldItem {
+    margin-bottom: 20px;
+}
+
+.checkGroup {
+    display: flex !important;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    padding: 0px !important;
+    align-items: center;
+    width: 250px;
+}
+
+.checkGroup input[type='checkbox'] {
+    margin: 0px !important;
+    border-radius: 0px;
+    position: relative;
+}
+
+.checkGroup input[type='checkbox']:checked::before {
+    content: '\2713';
+    position: absolute;
+    line-height: 13px;
+    top: 0px;
+    left: 1px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.checkGroup input[type='checkbox']:checked {
+    background-color: transparent !important;
+    border-color: #ced4da !important;
+}
+
+.buttonContainer button {
+    margin-right: 20px !important;
+}
+
+.buttonContainer button:last-of-type {
+    margin-right: 0px !important;
+}
+
+.contentContainer {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: space-between;
+}
+
+.headerContainer {
+    margin-bottom: 35px;
+}
+
+.statusValue {
+    font-weight: 500;
+}
+
+.red {
+    color: #fc3d3b;
+}
+
+.green {
+    color: #03c895;
+}
+
+.buttonActions {
+    font-size: 22px;
+}
+
+.buttonActions button {
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+.buttonActions button:last-of-type {
+    margin-right: 0px;
+}
+
+.centerText {
+    text-align: center;
+}

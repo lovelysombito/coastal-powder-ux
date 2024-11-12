@@ -1,0 +1,31 @@
+.sideMenuLink {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.sideMenuLink:hover {
+    background-color: #d6d9dc;
+    color: black;
+}
+
+.sideMenuLabelContentWrapper {
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+}
+
+.sideMenuLabelIcon {
+    margin-right: 5px;
+}
+
+.currentPageRoot {
+    background-color: #334151 !important;
+    color: white !important;
+}
+
+.currentPageNotRoot {
+    background-color: #d6d9dc !important;
+    color: black !important;
+}

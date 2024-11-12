@@ -1,0 +1,167 @@
+.contentContainer {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+.statusWrapper {
+    width: 155px;
+    text-align: center;
+}
+
+.expandedComponentWrapper {
+    height: 50px;
+    margin-top: 5px;
+    padding: 0px 15px;
+    background-color: white;
+}
+
+.expandedComponent {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 550px;
+    height: 100%;
+}
+
+.headerModal {
+    display: flex;
+    background-color: #e9e9e9;
+    padding: 20px;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.headerModalStatus {
+    background-color: #01b8ff;
+    color: white;
+    padding: 5px;
+    height: 40px;
+    width: 145px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.headerModalInvoice {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.headerModalDetails {
+    margin-top: 10px;
+}
+
+.headerModalDetailsLabel {
+    width: 130px;
+    display: inline-flex;
+    justify-content: space-between;
+}
+
+.headerModalDetailsLabel::after {
+    content: ':\00a0';
+}
+
+.modalContentContainer {
+    background-color: white;
+}
+
+.jobListModal {
+    min-height: 150px;
+    margin-top: 30px;
+}
+
+.modalData  {
+    display: flex;
+    height: 40px;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.modalDataCheck{
+    border-radius: 0px;
+    width: 50px;
+    text-align: center;
+}
+
+.modalDataLineItem {
+    flex: 0 0 auto;
+    width: 200px;
+}
+
+.dispatchButtonContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.modalTable thead{
+    border-bottom: 1px solid #e9e9e9;
+}
+
+.signatureContainerModal {
+    border: 1px solid #e9e9e9;
+    height: 150px;
+}
+
+.signatureModal {
+    width: 100%;
+}
+
+.clearSignatureButton {
+    margin: 10px;
+}
+
+.numberInput {
+    width: 80%;
+}
+
+.inputNumber {
+    width: 80px;
+    padding: 0 12px;
+    vertical-align: top;
+    text-align: center;
+    outline: none;
+}
+
+.inputNumberDecrement, .inputNumberIncrement, .inputNumber {
+    border: 1px solid #ccc;
+    height: 30px;
+    user-select: none;
+}
+
+.inputNumberIncrement, .inputNumberDecrement {
+    display: inline-block;
+    width: 30px;
+    line-height: 25px;
+    background: #f1f1f1;
+    color: #444;
+    text-align: center;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.inputNumberDecrement {
+    border-right: none;
+    border-radius: 4px 0 0 4px;
+}
+
+.inputNumberIncrement {
+    border-left: none;
+    border-radius: 0 4px 4px 0;
+}
+  
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}

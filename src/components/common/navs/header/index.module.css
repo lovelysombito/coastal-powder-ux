@@ -1,0 +1,153 @@
+.header {
+    height: 60px;
+    padding: 0px !important;
+}
+
+.logo {
+    height: auto;
+}
+
+.navLogoWrapper {
+    padding: 0px !important;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-right: 1px solid #dee2e6 !important;
+    box-shadow: 2px -4px 10px rgb(0 0 0 / 10%);
+    border-bottom: 1px solid #dee2e6 !important;
+    transition: width 0.25s ease-out;
+}
+
+.notificationDot {
+    position: absolute;
+    top: 0px;
+    right: -5px;
+    font-size: 12px;
+    z-index: 999;
+    color: rgb(255 71 61);
+}
+
+.notifications {
+    position: relative;
+}
+
+.navItem {
+    padding: 0.5rem;
+    cursor: pointer;
+}
+
+.navItem:last-of-type {
+    padding-right: 30px;
+}
+
+.navbarCollapse {
+    justify-content: end;
+}
+
+.navbarCustomTitleIcon {
+    color: #334151;
+    font-size: 20px;
+    display:inline-block;
+    line-height: 5px;
+}
+
+.navbarCustomTitleLabel {
+    color: rgba(0,0,0,.55);
+    display:none;
+}
+
+.profileMenuItem {
+    height: 45px;
+    width: 45px;
+    overflow: hidden;
+    border-radius: 50px;
+    border: 1px solid #dee2e6 !important;
+}
+
+.profileMenuIcon {
+    font-size: 27px;
+}
+
+.profileMenuImage {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.navItemsWrapper {
+    align-items: center;
+    width: 100%;
+}
+
+.sideMenuToggler{
+    flex-grow: 1;
+    padding-left: 20px;
+}
+
+.navbarSideMenuTogglerIcon {
+    font-size: 25px;
+    color: #334151;
+    cursor: pointer;
+}
+
+.sideMenuTogglerWrapper {
+    display: inline-block;
+    padding: 5px;
+}
+
+.sideMenuTogglerWrapper:hover {
+    background-color: #d6d9dc;
+    color: black;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 575px) {
+    .navItem {
+        padding: 0.5rem 0px;
+    }    
+    .header {
+        padding-left: 15px !important;
+        padding-right: 15px !important;
+    }
+    .navLogoWrapper {
+        margin-left: -15px;
+    }
+    .sideMenuTogglerWrapper {
+        padding: 0px;
+    }
+    .navbarCollapse {
+        background-color: white;
+        padding: 10px;
+        border: 1px solid rgba(0,0,0,.15);
+        border-radius: 0.25rem;
+    }
+    .navbarCustomTitleIcon {
+        display:none;
+    }
+    .navbarCustomTitleLabel {
+        display:inline-block;
+    }
+    .navItemsWrapper {
+        align-items: start;
+    }
+    .sideMenuToggler {
+        padding: .5rem 0;
+    }
+    .sideMenuTogglerWrapper:hover {
+        background-color: transparent;
+    }
+}
+
+.commentListItemPreviewUnread {
+    display: flex;
+    height: 17px;
+    width: 17px;
+    border-radius: 50%;
+    background-color: #fc3d3b;
+    color: white;
+    font-size: 10px;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}

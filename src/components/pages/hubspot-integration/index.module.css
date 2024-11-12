@@ -1,0 +1,26 @@
+.contentContainer {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    padding: 40px;
+}
+
+.statusLabel {
+    font-weight: bold;
+}
+
+.statusValue {
+    font-weight: 500;
+}
+
+.red {
+    color: #fc3d3b;
+}
+
+.green {
+    color: #03c895;
+}
+
+.button {
+    margin-top: 30px;
+}

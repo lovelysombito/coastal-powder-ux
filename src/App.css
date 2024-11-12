@@ -1,0 +1,27 @@
+* {
+  box-sizing: border-box;
+}
+
+.navbar-collapse {
+  z-index: 999;
+}
+
+.dropdown-toggle-no-caret .dropdown-toggle::after {
+  display: none !important;
+}
+
+.table.no-border > :not(:first-child) {
+  border-top: 0;
+}
+
+.table.no-border >:not(caption)>*>*{
+  border: none;
+}
+
+.loading-container {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+

@@ -1,0 +1,55 @@
+.contentContainer {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.headerContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.headerActions {
+    font-size: 22px;
+}
+
+.headerActions button {
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+.headerActions button:last-of-type {
+    margin-right: 0px;
+}
+
+.permission {
+    font-weight: 500;
+}
+
+.tableCheckBox input[type='checkbox'] {
+    border-radius: 0;
+}
+
+.fieldItem, .formButton {
+    display: flex;
+    width: 550px;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    align-items: center;
+}
+
+.formButton {
+    justify-content: flex-end;
+}
+
+.fieldItemField {
+    width: 300px !important;
+    border-radius: 0px !important;
+    border: none;
+}
+
+.updateFormContainer {
+    padding-left: 60px;
+}

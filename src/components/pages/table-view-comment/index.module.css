@@ -1,0 +1,44 @@
+.cardBody {
+    overflow-y: scroll;
+    height: 800px;
+}   
+
+.commentItem {
+    /* display: flex; */
+    margin-bottom: 10px;
+}
+
+.commentMessageInfo {
+    display: flex;
+    flex-direction: column;
+    /* align-items: flex-end; */
+    padding: 0px 60px;
+}
+
+.commentMessage {
+    /* background-color: #f0f2f8; */
+    padding: 5px 15px;
+    /* width: 500px; */
+}
+
+.commentReplyIcon {
+    color: gray;
+    font-size: 12px;
+    float: left !important;
+    width: 30px;
+}
+
+.commentReplyIcon:hover {
+    cursor: pointer;
+}
+
+.repliesDiv{
+    margin-right: 60px;
+    margin-left: 130px;
+}
+
+.textField {
+    width: 100% !important;
+    border-radius: 0px !important;
+    margin-top: 20px;
+}

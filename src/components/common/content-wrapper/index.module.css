@@ -1,0 +1,23 @@
+.mainWrapper {
+    display : flex;
+    flex-direction: column;
+}
+
+.mainContent {
+    width: 100%;
+    overflow: scroll;
+    height: calc(100vh - 110px);
+    background-color: #eff1f9;
+    padding: 0px 40px;
+}
+
+.mainContentWrapper {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    transition: width 0.25s ease-out;
+}
+
+.sideMenuAndContentContainer {
+    display: flex;
+}

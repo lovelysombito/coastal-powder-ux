@@ -1,0 +1,253 @@
+.contentContainer {
+    display: flex;
+    margin: 50px 150px 150px;
+    height: calc(100% - 100px);
+}
+
+.comments {
+    box-shadow: 0px 0px 5px rgb(0 0 0 / 10%);
+    background-color: white;
+    flex: 1 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.commentsHeader {
+    height: 100px;
+    box-shadow: 0px 5px 15px rgb(0 0 0 / 10%);
+    flex: 0 0 auto;
+    padding: 20px 40px;
+    display: flex;
+}
+
+.commentsHeaderInfo {
+    display: flex;
+    /* margin-left: 10px; */
+    /* flex-direction: column;
+    justify-content: center; */
+}
+
+.commentsHeaderName {
+    color: #334151;
+    font-weight: bold;
+    font-size: 16px;
+    margin-left: 0px;
+    margin-top: 6px;
+}
+
+.commentsHeaderTime {
+    color: gray;
+    font-size: 12px;
+}
+
+.commentsContents {
+    padding: 40px;
+    flex: 1 1 auto;
+    /* display: flex; */
+    overflow: auto;
+
+}
+
+.commentsActions {
+    height: 90px;
+    padding: 20px 40px 20px 40px;
+}
+
+.commentsActionsFieldGroup {
+    display: flex;
+}
+
+.textField {
+    width: 100% !important;
+    border-radius: 0px !important;
+}
+
+.profileIcon {
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    flex: 0 0 auto;
+}
+
+.green {
+    color: #fff !important;
+    background-color: #03c895 !important;
+    border-color: #03c895 !important;
+}
+
+.red {
+    color: #fff !important;
+    background-color: #fc3d3b !important;
+    border-color: #fc3d3b !important;
+}
+
+.orange {
+    color: #fff !important;
+    background-color: #eb6f33 !important;
+    border-color: #eb6f33 !important;
+}
+
+.blue {
+    color: #fff !important;
+    background-color: #01b8ff !important;
+    border-color: #01b8ff !important;
+}
+
+.commentItem {
+    display: flex;
+    margin-bottom: 25px;
+}
+
+.commentItemUser {
+    flex-direction: row-reverse !important;
+}
+
+.commentItemUser .commentMessageInfo {
+    align-items: flex-start !important;
+} 
+
+.commentMessageInfo {
+    display: flex;
+    flex-direction: column;
+    /* align-items: flex-end; */
+    padding: 0px 15px;
+}
+
+.commentMessage {
+    display: flex;
+    /* background-color: #f0f2f8; */
+    padding: 5px 15px;
+    min-width: 650px;
+}
+
+.commentTime {
+    color: gray;
+    font-size: 12px;
+}
+
+.card{
+    margin-bottom: 10px;
+    border-radius: 0 !important; 
+    display: flex;
+}
+
+.commentReplyIcon {
+    color: gray;
+    font-size: 12px;
+    float: left !important;
+    width: 30px;
+}
+
+.commentReplyIcon:hover {
+    cursor: pointer;
+}
+
+.replyItem {
+    display: flex;
+    margin-bottom: 25px;
+    margin-left: 50px;
+}
+
+
+
+
+
+/* .commentList {
+    width: 400px;
+    background-color: white;
+    margin-right: 40px;
+    box-shadow: 0px 0px 5px rgb(0 0 0 / 10%);
+    flex: 0 0 auto;
+}
+
+.commentListDataContainer {
+    overflow-y: scroll;
+    height: calc(100% - 100px);
+}
+
+.commentListDataContainer::-webkit-scrollbar {
+    display: none;
+}
+
+.commentListItem {
+    padding: 20px 40px;
+    cursor: pointer;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.commentListItem:hover {
+    background-color: #e1e6f157;
+}
+
+.content {
+    box-shadow: 0px 0px 5px rgb(0 0 0 / 10%);
+    background-color: white;
+    flex: 1;
+    padding: 40px;
+}
+
+
+
+.searchFieldItem {
+    padding: 20px 40px;
+    margin-top: 15px;
+}
+
+.commentListItemPreview {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0px 15px;
+    width: 215px;
+    flex: 0 0 auto;
+}
+
+.commentListItemPreviewName {
+    font-weight: bold;
+    color: #334151;
+}
+
+.commentListItemPreviewComment {
+    color: gray;
+}
+
+.commentListItemOtherInfo {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    height: 40px;
+    justify-content: space-between;
+}
+
+.commentListItemPreviewDate {
+    font-size: 12px;
+    color: gray;
+}
+
+.commentListItemPreviewUnread {
+    display: flex;
+    height: 14px;
+    width: 14px;
+    border-radius: 50%;
+    background-color: #fc3d3b;
+    color: white;
+    font-size: 10px;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+*/
+
+

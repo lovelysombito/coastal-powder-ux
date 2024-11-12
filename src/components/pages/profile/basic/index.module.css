@@ -1,0 +1,33 @@
+.textField {
+    width: 300px !important;
+    margin-right: 15px !important;
+    border-radius: 0px !important;
+}
+
+.groupedFields {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.buttonContainer button {
+    margin-right: 20px !important;
+}
+
+.buttonContainer button:last-of-type {
+    margin-right: 0px !important;
+}
+
+.contentContainer {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: space-between;
+}
+
+.headerContainer {
+    margin-bottom: 35px;
+}
+
+.spinner {
+    margin: 150px 550px;
+}

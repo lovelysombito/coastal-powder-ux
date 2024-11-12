@@ -1,0 +1,47 @@
+name: CI-master
+
+on:
+  pull_request_review:
+    types: [submitted]
+    branches: [ master ]
+  # Run the workflow manually
+  workflow_dispatch:
+
+jobs:
+  approved:
+    if: github.event.review.state == 'approved'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check pull request status
+        if: github.event.review.state == 'approved'
+        uses: actions/checkout@v2        
+
+      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+      - name: Git checkout
+        uses: actions/checkout@v2
+        
+      - name: Update NPM
+        uses: actions/setup-node@v3
+        with:
+          node-version: 16.13.2
+        
+      # Install packages
+      - name: Install packages
+        run: |
+          npm install
+
+      - run: npm ci
+      - run: npm test
+      - run: npm run build
+
+
+      - name: Deploy to S3
+        uses: jakejarvis/s3-sync-action@master
+        with:
+          args: --acl public-read --delete
+        env:
+          AWS_S3_BUCKET: coastalpowder.upstreamtech.dev
+          AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY}}
+          AWS_REGION: ${{ secrets.AWS_REGION }}
+          SOURCE_DIR: "build"
